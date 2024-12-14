@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link rel = "stylesheet" href ="style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "vals">
+    <input type = "text" id = "textField" value="bulbasaur" placeholder="Pokemon Name">
+    <button id = "submit" onclick ="fetchData()"> Fetch Data</button>
+        </div>
+        <div class = "attributes">
+    <p id = "name"></p>
+    <p id = "weight"></p>
+    <p id = "type"></p>
+        </div>
+     
+    <img id = "pokemon" src = "#" style = "display: none;">
+      
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>

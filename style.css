@@ -1,0 +1,68 @@
+#textField{
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#submit{
+    font-size: 45px;
+    background-color: #007BFF;
+    color:white;
+    transition-duration: 2s ease;
+    border-radius: 10px;
+}
+body{
+    min-width: 250px;
+}
+#submit:hover{
+    background-color:#0056D2 ;
+    cursor: pointer;
+}
+.container{
+    padding-top: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    display: flexbox;
+}
+
+.attributes{
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    }
+    .vals{
+        display: flex;
+        justify-self: center;
+    }
+
+
+#pokemon{
+    background-blend-mode:luminosity;
+    background-color:black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://media1.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif?cid=6c09b952qgj0l8ern93lehyeyyicqkf1g5cnsdqvbf2yht3r&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    border: 2px solid gray;
+    size: 150px;
+    height: 238px;
+    display: flex;
+        justify-self: center;
+    width: 300px;
+}
+@media (max-width: 700px){
+    .attributes{
+        font-size: 13px;
+    }
+    #textField{
+        font-size: 14px;
+    }
+    #submit{
+        font-size: 14px;
+    }
+    #pokemon{
+        border-radius: 100px;
+        height: 138px;
+    width: 150px;
+    }
+}

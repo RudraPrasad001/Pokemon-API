@@ -8,6 +8,7 @@ nameStaker.addEventListener("keydown",function(event){
 {
     
     var name = document.getElementById("textField").value
+    name=String(name).toLowerCase()
     const pic = document.getElementById("pokemon")
     try{
     const  data= await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)

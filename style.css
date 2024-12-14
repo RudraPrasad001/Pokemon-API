@@ -1,4 +1,5 @@
 #textField{
+    text-align: center;
     font-size: 45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -17,7 +18,7 @@ body{
     cursor: pointer;
 }
 .container{
-    padding-top: 200px;
+    padding-top: 140px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -32,9 +33,15 @@ body{
     .vals{
         display: flex;
         justify-self: center;
+        gap:10px;
+        flex-direction: column;
     }
 
+#canvas{
 
+    display: flex;
+    justify-self: center;    
+}
 #pokemon{
     background-blend-mode:luminosity;
     background-color:black;
@@ -42,7 +49,6 @@ body{
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("https://media1.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif?cid=6c09b952qgj0l8ern93lehyeyyicqkf1g5cnsdqvbf2yht3r&ep=v1_gifs_search&rid=giphy.gif&ct=g");
     border: 2px solid gray;
     size: 150px;
     height: 238px;
